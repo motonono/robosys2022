@@ -6,9 +6,12 @@ It is 2022
 
 ## 使い方
 $ git clone　git@github.com:motonono/robosys2022.git
+
 $ cd robosys2022/
+
 $ echo 数字をスペースを空けながら入れる。> nums
   例：$ echo 1 3 4 6 8 > nums
+
 $ cat nums | tr ' ' '\n' | ./plus
 
 上の4行のように打つと、３行目に打った数字の合計の値が出ます。
