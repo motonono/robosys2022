@@ -9,7 +9,8 @@ $ git clone　git@github.com:motonono/robosys2022.git
 
 $ cd robosys2022/
 
-$ echo 数字をスペースを空けながら入れる。> nums
+$ echo 数字をスペースを空けながら入れる。> nums 
+
   例：$ echo 1 3 4 6 8 > nums
 
 $ cat nums | tr ' ' '\n' | ./plus
