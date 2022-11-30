@@ -1,11 +1,11 @@
-# plusコマンド
+# 足し算
 ![test](https://github.com/motonono/robosys2022/actions/workflows/test.yml/badge.svg)
 It is 2022
 
 標準入力から読み込んだ数字の合計を出します。
 
 ## 使い方
-$ git clone　git@github.com:motonono/robosys2022.git
+$ git clone https://github.com/motonono/robosys2022.git
 
 $ cd robosys2022/
 
@@ -17,14 +17,15 @@ $ cat nums | tr ' ' '\n' | ./plus
 
 上の4行のように打つと、３行目に打った数字の合計の値が出ます。
 例の場合だと22がでます。
-## 謝辞
-　Nukui 使い方の部分を書くときにアドバイスをもらいました。　
+
 ## 必要なソフトウェア
- Pypthon
-   テスト済み: 3.7～3.10
+   テスト済み: Python 3.7～3.10
 
 ## テスト環境
  Ubuntu 
+
+## 謝辞
+　　Nukui READMEの使い方を書くときにアドバイスをもらいました。
 
 
 このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されています。
