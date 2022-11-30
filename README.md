@@ -1,4 +1,4 @@
-# robosys2022
+# plusコマンド
 ![test](https://github.com/motonono/robosys2022/actions/workflows/test.yml/badge.svg)
 It is 2022
 
@@ -11,7 +11,7 @@ $ cd robosys2022/
 
 $ echo 数字をスペースを空けながら入れる。> nums 
 
-  例：$ echo 1 3 4 6 8 > nums
+ 例：$ echo 1 3 4 6 8 > nums
 
 $ cat nums | tr ' ' '\n' | ./plus
 
